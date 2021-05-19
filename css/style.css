@@ -1,0 +1,92 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.mix {
+    display: flex;
+    justify-content: center;
+    font-family: Crete Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 43px;
+
+    color: #060C31;
+}
+
+.span1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.span2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text_head {
+    margin-left:900px ;
+    font-family: Crete Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: 2.9px;
+    color: #060C31;
+}
+
+.span3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 2px;
+    letter-spacing: 0.75px;
+    color: #060C31;
+}
+
+.nav_text {
+    margin-left: 900px;
+}
+.nav_buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 891px;
+}
+
+.button_one {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0px;
+    border: 0;
+    padding: 16px 36px;
+    margin: 0 10px;
+    width: 156px;
+    height: 50px;
+    background: #233FE2;
+    border-radius: 50px;
+    color: white;
+}
+.button_two {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0px;
+    padding: 16px 36px;
+    border: 1px solid #FFB0B1;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.image {
+    margin-left: 900px;
+}
+
