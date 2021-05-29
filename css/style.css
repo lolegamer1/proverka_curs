@@ -1,10 +1,22 @@
-
 body {
     background-color: #ffffff;
     width: 1920px;
     height: 1188px;
     margin: 0;
 }
+
+.button_up {
+    position: fixed;
+    cursor: poiner;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.button_up.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 .logo {
     display: block;
@@ -76,4 +88,46 @@ body {
 
 .image_bottom {
     margin: 28px 0 0 451px;
+}
+
+.popup_container.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup_container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+
+
+
+
+
+    width: 640px;
+    height: 847px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 16px 48px rgba(60, 0, 61, 0.48);
+    border-radius: 12px;
+}
+
+.welcome_img {
+    padding-left: 120px;
+}
+
+.popup_text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    /* or 31px */
+
+    text-align: center;
+
+    color: #000000;
 }
